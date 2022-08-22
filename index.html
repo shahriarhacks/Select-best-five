@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your Best Player List</title>
+    <link rel="shortcut icon" href="./images/futbal.svg" type="image/x-icon">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="container-fluid p-5 header-background">
+        <h1 class="text-center text-warning">Select Your Best Players</h1>
+        <p class="text-center mx-0 text-white container">What criteria do you think should be used to determine who is
+            the best
+            football
+            (soccer)
+            player in the world?
+            <span>Football or soccer is the name of a similar game. Anyone who dreams of becoming a star football player
+                needs to follow certain guidelines to achieve their objective.
+
+                Football is not only a physical game but also a mental game that involves a lot of strength and
+                determination. Every objective that we dream to achieve needs lots of practice and hard work.</span>
+        </p>
+    </header>
+    <!-- Main Section -->
+    <main class="main-background">
+        <section class="py-5 container">
+            <div class="row">
+                <div class="col-lg-9 col-md-12">
+                    <div class="container overflow-hidden text-center">
+                        <div class="row g-3">
+                            <div class="col-lg-4 col-md-2">
+                                <div class="card text-white bg-black">
+                                    <img src="./images/messi.png" class="card-img-top img-fluid" alt="messi">
+                                    <div class="card-body">
+                                        <h3>Lionel Messi</h3>
+                                        <span class="text-secondary">96 Goals</span> -
+                                        <span class="text-secondary">206 Assist</span>
+                                        <button class="btn btn-primary d-block mx-auto px-5 mt-3"
+                                            onclick="addPlayer(this)">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-2">
+                                <div class="card text-white bg-black">
+                                    <img src="./images/neymar.png" class="card-img-top img-fluid" alt="messi">
+                                    <div class="card-body">
+                                        <h3>Neymar Jr.</h3>
+                                        <span class="text-secondary">62 Goals</span> -
+                                        <span class="text-secondary">144 Assist</span>
+                                        <button class="btn btn-primary d-block mx-auto px-5 mt-3"
+                                            onclick="addPlayer(this)">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-2">
+                                <div class="card text-white bg-black">
+                                    <img src="./images/mbappe.png" class="card-img-top img-fluid" alt="messi">
+                                    <div class="card-body">
+                                        <h3>Kylian Mbappe</h3>
+                                        <span class="text-secondary">99 Goals</span> -
+                                        <span class="text-secondary">122 Assist</span>
+                                        <button class="btn btn-primary d-block mx-auto px-5 mt-3"
+                                            onclick="addPlayer(this)">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-2">
+                                <div class="card text-white bg-black">
+                                    <img src="./images/machado.png" class="card-img-top img-fluid" alt="messi">
+                                    <div class="card-body">
+                                        <h3>Vitor Machendo</h3>
+                                        <span class="text-secondary">43 Goals</span> -
+                                        <span class="text-secondary">69 Assist</span>
+                                        <button class="btn btn-primary d-block mx-auto px-5 mt-3"
+                                            onclick="addPlayer(this)">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-2">
+                                <div class="card text-white bg-black">
+                                    <img src="./images/ramos.png" class="card-img-top img-fluid" alt="messi">
+                                    <div class="card-body">
+                                        <h3>Sergio Ramos</h3>
+                                        <span class="text-secondary">58 Goals</span> -
+                                        <span class="text-secondary">106 Assist</span>
+                                        <button class="btn btn-primary d-block mx-auto px-5 mt-3"
+                                            onclick="addPlayer(this)">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-2">
+                                <div class="card text-white bg-black">
+                                    <img src="./images/renato-sanchos.png" class="card-img-top img-fluid" alt="mess">
+                                    <div class="card-body">
+                                        <h3>Renato Sanches</h3>
+                                        <span class="text-secondary">59 Goals</span> -
+                                        <span class="text-secondary">86 Assist</span>
+                                        <button class="btn btn-primary d-block mx-auto px-5 mt-3"
+                                            onclick="addPlayer(this)">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-2">
+                                <div class="card text-white bg-black">
+                                    <img src="https://pm1.narvii.com/6557/af41037d476449743bcbc15e1a15e4c7e0126896_hq.jpg"
+                                        class="card-img-top img-fluid" alt="messi">
+                                    <div class="card-body">
+                                        <h3>Paulo Dybala</h3>
+                                        <span class="text-secondary">184 Goals</span> -
+                                        <span class="text-secondary">167 Assist</span>
+                                        <button class="btn btn-primary d-block mx-auto px-5 mt-3"
+                                            onclick="addPlayer(this)">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-2">
+                                <div class="card text-white bg-black">
+                                    <img src="./images/neymar.png" class="card-img-top img-fluid" alt="messi">
+                                    <div class="card-body">
+                                        <h3>Neymar Jr.</h3>
+                                        <span class="text-secondary">88 Goals</span> -
+                                        <span class="text-secondary">156 Assist</span>
+                                        <button class="btn btn-primary d-block mx-auto px-5 mt-3"
+                                            onclick="addPlayer(this)">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-2">
+                                <div class="card text-white bg-black">
+                                    <img src="./images/messi.png" class="card-img-top img-fluid" alt="messi">
+                                    <div class="card-body">
+                                        <h3>Lionel Messi</h3>
+                                        <span class="text-secondary">96 Goals</span> -
+                                        <span class="text-secondary">206 Assist</span>
+                                        <button class="btn btn-primary d-block mx-auto px-5 mt-3"
+                                            onclick="addPlayer(this)">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 g-3">
+
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <div class="bg-black">
+                                <table class="table">
+                                    <thead class="text-white">
+                                        <tr>
+                                            <th scope="col">SL No.</th>
+                                            <th scope="col">Name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="players-list" class="text-white">
+                                        <!-- <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                        </tr> -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-12 ">
+                            <div class="bg-black text-white py-4">
+                                <h3 class="text-center">Budget</h3>
+                                <div class="px-4 text-end my-3">
+                                    <span>Per Player</span>
+                                    <input id="per-player-cost" type="text" class="w-50 bg-transparent text-white">
+                                </div>
+                                <button id="calculate"
+                                    class="btn btn-outline-primary d-block mx-auto px-5 my-3">Calculate</button>
+                                <h5 class="text-center">Player Expense $<span id="calculate-amount">00</span></h5>
+                                <div class="px-4 text-end my-3">
+                                    <span>Manager</span>
+                                    <input id="manager" type="text" class="w-50 bg-transparent text-white">
+                                </div>
+                                <div class="px-4 text-end my-3">
+                                    <span>Coach</span>
+                                    <input id="coach" type="text" class="w-50 bg-transparent text-white">
+                                </div>
+                                <button id="calculate-total"
+                                    class="btn btn-outline-primary d-block mx-auto px-5 my-3">Calculate
+                                    Total</button>
+                                <h4 class="text-center">Total <span class="text-warning">$<span
+                                            id="total-cost">00</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Bootstrap CDN for JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- JAvascript Linking -->
+    <script src="./script/main.js"></script>
+</body>
+
+</html>
